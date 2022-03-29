@@ -3,7 +3,7 @@
 > A simple web app where you can calculate the <i>Αverage</i> for your university courses
 
 
-<img src="frontend/src/img/home_page.png" width="550"  height="335" /><br><br>
+<img src="frontend/src/img/home_page.png" width="750"  height="335" /><br><br>
 
 <details><summary> Οδηγίες εγκατάστασης εφαρμογής </summary>
 <p>

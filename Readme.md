@@ -1,5 +1,5 @@
 
-#GradeBook 
+# GradeBook 
 > A simple web app where you can calculate the <i>Αverage</i> for your university courses
 
 

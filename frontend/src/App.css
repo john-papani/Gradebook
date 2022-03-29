@@ -13,6 +13,7 @@
 /*Home css*/
 .Home {
     text-align: center;
+    padding-top: 80px;
 }
 
 .average {
@@ -99,8 +100,11 @@ td {
 
 
 /* NavBar css */
-.Nav {
+nav {
     text-align: center;
+position: fixed;
+    top: 0px;
+    width: 100%;
 
 }
 

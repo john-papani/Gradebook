@@ -9,16 +9,23 @@ const Upload = () => {
 
     const sumbitGrade = () => {
         if (rcourse !== "" && rgrade !== "") {
-            axios
-                .post("http://localhost:8001/upload", {
-                    course: rcourse,
-                    grade: rgrade,
-                    semester: rsemester,
-                })
-                .catch((err) => console.log(err.data))
-            alert(`succesful insert ${rcourse}`);
-            console.log("Mhpke")
-            window.location.reload(false);
+            if (rgrade < 0 || rgrade > 10) {
+                alert("lathos bathmos(prepei 0-10)")
+            } else if (rsemester<=0 ||rsemester>=15) {
+                alert("lathos semester(prepei max 14)")
+            }
+            else{
+                axios
+                    .post("http://localhost:8001/upload", {
+                        course: rcourse,
+                        grade: rgrade,
+                        semester: rsemester,
+                    })
+                    .catch((err) => console.log(err.data))
+                alert(`succesful insert ${rcourse}`);
+                console.log("Mhpke")
+                window.location.reload(false);
+            }
         } else if (rcourse === "" && rgrade !== "") {
             alert("leipei to mathima")
         } else if (rcourse !== "" && rgrade === "") {

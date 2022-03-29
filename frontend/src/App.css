@@ -1,0 +1,134 @@
+.app {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.about {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}
+
+
+/*Home css*/
+.Home {
+    text-align: center;
+}
+
+.average {
+    text-align: center;
+    background-color:aliceblue;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid crimson;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.grades {
+    padding-bottom: 100px;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    width:50%;
+
+}
+tbody{
+    height:300px;
+    overflow-x:auto;
+
+}
+tr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding: 15px;
+}
+
+td {
+    padding: 4px;
+}
+
+
+
+/*Upload css*/
+.upload {
+    text-align: center;
+    display: block;
+    padding-top:100px;
+    padding-bottom: 200px;
+
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+    align-items: center;
+    margin: 10px;
+}
+
+.upload-form input {
+    width: 300px;
+    height: 20px;
+    margin: 10px;
+    word-break: break-all;
+}
+
+.upload-form input[name="rsemester"], input[name="rgrade"] {
+    width: 50px;
+    text-align: center;
+}
+
+.upload-button {
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    touch-action: manipulation;
+    background-color: silver;
+}
+
+
+/* NavBar css */
+.Nav {
+    text-align: center;
+
+}
+
+nav h2{
+    font-size: 25px;
+    color: #ffff;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73, 79, 82);
+    color: white;
+
+}
+
+.nav-links {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    list-style: disc;
+}
+
+.link {
+    list-style: none;
+    color: white;
+}
+
